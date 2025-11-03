@@ -17,6 +17,9 @@ The connector includes a connection string builder in which we incorporate optim
 ODBC parameter settings and a driver resolver that contains the ODBC
 driver version.
 
+
+The dialect file is overriding the base class here: https://github.com/tableau/connector-plugin-sdk/blob/c2c66ac71a94b4f95cc2575b7b6c2733ac602790/samples/components/dialects/Hive12Dialect.tdd
+
 See also https://docs.databricks.com/user-guide/bi/tableau.html
 
 
