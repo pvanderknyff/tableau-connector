@@ -42,10 +42,17 @@ limitations under the License. -->
         </conditions>
     </field>
 
+    <!-- Password for Personal Access Token -->
     <field name="password" label="@string/password_prompt/" category="authentication" value-type="string" secure="true">
      <conditions>
          <condition field="authentication" value="auth-user-pass" />
          <condition field="authentication" value="auth-pass" />
+      </conditions>
+    </field>
+
+    <!-- Client Secret for Service Principal OAuth -->
+    <field name="password" label="@string/sp_client_secret_prompt/" category="authentication" value-type="string" secure="true">
+     <conditions>
          <condition field="authentication" value="auth-client-creds" />
       </conditions>
     </field>

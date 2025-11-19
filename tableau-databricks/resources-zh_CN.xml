@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">客户端 ID</string>
   <string name="password_prompt">令牌</string>
+  <string name="sp_client_secret_prompt">客户端密钥</string>
 
   <string name="odbc_extra_config_prompt">额外的 ODBC 选项(“key=value;key2=value2;...”)</string>
 

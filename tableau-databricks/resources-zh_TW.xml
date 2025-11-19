@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">用戶端識別碼</string>
   <string name="password_prompt">權杖</string>
+  <string name="sp_client_secret_prompt">用戶端密碼</string>
 
   <string name="odbc_extra_config_prompt">額外的 ODBC 選項 (「key=value;key2=value2;...」)</string>
 

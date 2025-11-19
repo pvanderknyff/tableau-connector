@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">ID ไคลเอ็นต์</string>
   <string name="password_prompt">โทเค็น</string>
+  <string name="sp_client_secret_prompt">ความลับของไคลเอ็นต์</string>
 
   <string name="odbc_extra_config_prompt">ตัวเลือก ODBC เพิ่มเติม (“key=value;key2=value2;...”)</string>
 

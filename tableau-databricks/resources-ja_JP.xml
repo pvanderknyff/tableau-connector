@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">クライアント ID</string>
   <string name="password_prompt">トークン</string>
+  <string name="sp_client_secret_prompt">クライアント シークレット</string>
 
   <string name="odbc_extra_config_prompt">追加の ODBC オプション (「key=value;key2=value2;...」)</string>
 

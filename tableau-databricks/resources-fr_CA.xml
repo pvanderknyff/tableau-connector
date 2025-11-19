@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">ID client</string>
   <string name="password_prompt">Jeton</string>
+  <string name="sp_client_secret_prompt">Secret du client</string>
 
   <string name="odbc_extra_config_prompt">Options ODBC supplémentaires (« key=value;key2=value2;... »)</string>
 
