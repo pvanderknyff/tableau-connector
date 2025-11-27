@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">Client ID</string>
   <string name="password_prompt">Token</string>
+  <string name="sp_client_secret_prompt">Client Secret</string>
 
   <string name="odbc_extra_config_prompt">Extra ODBC options (“key=value;key2=value2;...”)</string>
 

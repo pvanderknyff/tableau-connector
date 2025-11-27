@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">클라이언트 ID</string>
   <string name="password_prompt">토큰</string>
+  <string name="sp_client_secret_prompt">클라이언트 시크릿</string>
 
   <string name="odbc_extra_config_prompt">추가 ODBC 옵션(’key=value;key2=value2;...’)</string>
 

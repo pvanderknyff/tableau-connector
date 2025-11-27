@@ -28,6 +28,7 @@ limitations under the License. -->
   
   <string name="username_prompt">b78b-表:Client ID|桜</string>
   <string name="password_prompt">1a7e-表:Token|桜</string>
+  <string name="sp_client_secret_prompt">9d4f-表:Client Secret|桜</string>
 
   <string name="odbc_extra_config_prompt">a640-表:Extra ODBC options ('key=value;key2=value2;...')|桜</string>
 
