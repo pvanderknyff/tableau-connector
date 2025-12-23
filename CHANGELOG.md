@@ -9,6 +9,7 @@
 - Single-use refresh token capability for OAuth
 - Tableau Prep write support to Databricks
 - Vendor information and license key in manifest
+- Default TokenRenewLimit=10 to support long-running queries with automatic token refresh
 
 ### Changed
 - Fixed analytic window functions to use standard SQL functions (MIN, MAX, SUM, AVG, COUNT)

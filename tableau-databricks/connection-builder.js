@@ -91,6 +91,10 @@ limitations under the License.
 	// Allow driver to access UC Volumes for Prep Write to DB
 	params["StagingAllowedLocalPaths"] = connectionHelper.GetTempFilePath();
 
+	// Token renewal limit for long-running queries
+	// Allows token to be refreshed up to 10 times during query execution
+	params["TokenRenewLimit"] = "10";
+
 	// Load ODBC connection string extras
 	var odbcConnectStringExtrasMap = {};
 	const attributeODBCConnectStringExtras = connectionHelper.attributeODBCConnectStringExtras;
