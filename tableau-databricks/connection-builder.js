@@ -20,7 +20,9 @@ limitations under the License.
 
 	var vendorDefined = {
 		attributeHttpPath: "v-http-path",
-		attributeQueryTags: "v-query-tags"
+		attributeQueryTags: "v-query-tags",
+		attributeOidcDiscoveryEndpoint: "v-oidc-discovery-endpoint",
+		attributeAuthScope: "v-auth-scope"
 	}
 
 	// The Databricks cluster ODBC endpoint
@@ -63,7 +65,14 @@ limitations under the License.
 			params["Auth_Flow"] = 1;
 			params["Auth_Client_ID"] = attr[connectionHelper.attributeUsername];
 			params["Auth_Client_Secret"] = attr[connectionHelper.attributePassword];
-			params["Auth_Scope"] = "sql";
+			if (attr[vendorDefined.attributeOidcDiscoveryEndpoint]) {
+				params["OIDCDiscoveryEndpoint"] = attr[vendorDefined.attributeOidcDiscoveryEndpoint];
+			}
+			if (attr[vendorDefined.attributeAuthScope]) {
+				params["Auth_Scope"] = attr[vendorDefined.attributeAuthScope];
+			} else {
+				params["Auth_Scope"] = "sql";
+			}
 			break;
 	
 		default:
