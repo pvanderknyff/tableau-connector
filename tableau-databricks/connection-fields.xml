@@ -96,6 +96,20 @@ limitations under the License. -->
     </field>-->
     <!-- /Proxy -->
 
+    <!-- OIDC Discovery Endpoint for Azure AD Service Principal -->
+    <field name="v-oidc-discovery-endpoint" label="@string/oidc_discovery_endpoint_prompt/" category="advanced" value-type="string" optional="true">
+        <conditions>
+            <condition field="authentication" value="auth-client-creds" />
+        </conditions>
+    </field>
+
+    <!-- Auth Scope for Service Principal OAuth -->
+    <field name="v-auth-scope" label="@string/auth_scope_prompt/" category="advanced" value-type="string" optional="true">
+        <conditions>
+            <condition field="authentication" value="auth-client-creds" />
+        </conditions>
+    </field>
+
     <field name="odbc-connect-string-extras" label="@string/odbc_extra_config_prompt/" category="advanced" value-type="string" optional="true">
         <!-- valid keys: test, Test, SSP_spark.test -->
         <!-- valid values: word, Word, some-arbitrary*string, {has-semicolon;}, {has{closing}}bracket;} -->
